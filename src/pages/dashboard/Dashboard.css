@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customizações */
+.full-page-wrapper {
+
+  background-image: radial-gradient(
+    circle farthest-corner at 100% 100%,
+    var(--gradient-blue),
+    transparent 44%
+  ),
+  radial-gradient(
+    circle farthest-corner at 0% 100%,
+    var(--gradient-red),
+    transparent 32%
+  );
+}

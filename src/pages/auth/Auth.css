@@ -1,0 +1,74 @@
+.full-page-wrapper {
+  background-color: var(--black);
+  background-image: radial-gradient(
+      circle farthest-corner at 100% 100%,
+      var(--gradient-blue),
+      transparent 44%
+    ),
+    radial-gradient(
+      circle farthest-corner at 0% 100%,
+      var(--gradient-red),
+      transparent 32%
+    );
+  color: var(--white);
+  align-items: center;
+  width: 100%;
+  max-width: none;
+  padding: 24px 12px;
+}
+
+.w-users-userformpagewrap {
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  height: 100vh;
+  display: flex;
+}
+
+.admin-form-card {
+  margin: 0 auto;
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 380px;
+  padding: 40px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.form-card-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.form-card-footer {
+  grid-column-gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.w-users-userformfooter {
+  margin-top: 12px;
+  display: flex;
+}
+
+.form-error {
+  background-color: var(--silver);
+  color: var(--black);
+  border-radius: 6px;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+.w-users-userformerrorstate {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  right: 0%;
+}
